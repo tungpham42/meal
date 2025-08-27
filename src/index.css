@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&display=swap");
+
+/* Culinary-themed styles for Meal Planner */
+body {
+  margin: 0 !important;
+  font-family: "Cantarell", "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  background-color: #fefae0 !important; /* Cream background */
+  color: #2b2d42 !important; /* Charcoal text */
+  background-image: url("https://www.transparenttextures.com/patterns/light-paper-fibers.png") !important;
+  background-attachment: fixed !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace !important;
+}
+
+/* Headers with a handwritten, recipe-book feel */
+h3,
+.culinary-header {
+  font-family: "Dancing Script", cursive !important;
+  color: #e63946 !important; /* Tomato red */
+  font-weight: 700 !important;
+  font-size: 1.8rem !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Container styling */
+.container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ) !important; /* Semi-transparent white for contrast */
+  border-radius: 15px !important;
+  padding: 2rem !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dropdown-menu.show {
+  z-index: 1050 !important; /* Ensure dropdowns appear above other elements */
+}
+
+/* Card styling */
+.card {
+  border: none !important;
+  border-radius: 10px !important;
+  background-color: #fff !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.card:hover {
+  transform: scale(1.03) !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) !important;
+  z-index: 1050 !important;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  object-fit: cover !important;
+  height: 180px !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #e63946 !important; /* Tomato red */
+  border-color: #e63946 !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.btn-primary:hover {
+  background-color: #d00000 !important;
+  border-color: #d00000 !important;
+}
+
+.btn-success {
+  background-color: #606c38 !important; /* Olive green */
+  border-color: #606c38 !important;
+}
+
+.btn-success:hover {
+  background-color: #4a5630 !important;
+  border-color: #4a5630 !important;
+}
+
+.btn-outline-secondary {
+  border-color: #f4a261 !important; /* Saffron yellow */
+  color: #f4a261 !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f4a261 !important;
+  color: #fff !important;
+}
+
+.btn-outline-danger {
+  border-color: #e63946 !important;
+  color: #e63946 !important;
+}
+
+.btn-outline-danger:hover {
+  background-color: #e63946 !important;
+  color: #fff !important;
+}
+
+.badge.bg-primary {
+  background-color: #e63946 !important; /* Tomato red */
+  color: #fff !important;
+}
+
+/* Badges */
+.badge {
+  background-color: #f4a261 !important; /* Saffron yellow */
+  color: #2b2d42 !important;
+  font-weight: 500 !important;
+  padding: 0.5em 1em !important;
+  border-radius: 5px !important;
+}
+
+/* Planner day cards */
+.day-card {
+  background-color: #fefae0 !important; /* Cream */
+  border: 2px solid #f4a261 !important; /* Saffron yellow border */
+  border-radius: 8px !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.day-card:hover {
+  background-color: #fdf5d0 !important;
+}
+
+/* Modal styling */
+.modal-content {
+  border-radius: 15px !important;
+  background-color: #fff !important;
+  border: 1px solid #f4a261 !important;
+}
+
+.modal-header {
+  background-color: #fefae0 !important;
+  border-bottom: 1px solid #f4a261 !important;
+}
+
+.modal-title {
+  font-family: "Dancing Script", cursive !important;
+  color: #e63946 !important;
+}
+
+/* Offcanvas styling */
+.offcanvas {
+  background-color: #fefae0 !important;
+  border-left: 2px solid #f4a261 !important;
+}
+
+.offcanvas-title {
+  font-family: "Dancing Script", cursive !important;
+  color: #e63946 !important;
+}
+
+/* List group for shopping list */
+.list-group-item {
+  background-color: #fff !important;
+  border: 1px solid #f4a261 !important;
+  border-radius: 5px !important;
+  margin-bottom: 0.5rem !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.list-group-item:hover {
+  background-color: #fdf5d0 !important;
+}
+
+/* Form inputs */
+.form-control {
+  border: 1px solid #f4a261 !important;
+  border-radius: 5px !important;
+}
+
+.form-control:focus {
+  border-color: #e63946 !important;
+  box-shadow: 0 0 5px rgba(230, 57, 70, 0.5) !important;
+}
+
+.form-select {
+  border: 1px solid #f4a261 !important;
+  border-radius: 5px !important;
+}
+
+.form-select:focus {
+  border-color: #e63946 !important;
+  box-shadow: 0 0 5px rgba(230, 57, 70, 0.5) !important;
+}
+
+/* Fade-in animation for cards */
+@keyframes fadeIn {
+  from {
+    opacity: 0 !important;
+    transform: translateY(10px) !important;
+  }
+  to {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}
+
+.card,
+.day-card,
+.list-group-item {
+  animation: fadeIn 0.5s ease-in-out !important;
+}
